@@ -13,7 +13,7 @@ export default defineConfig({
     federation({
       name: 'user',
       remotes: {
-        user: 'http://localhost:5001/assets/remoteEntry.js',
+        user: 'http://localhost:5551/assets/remoteEntry.js',
       },
       shared: {
         react: { requiredVersion: '^18.0.0' },
